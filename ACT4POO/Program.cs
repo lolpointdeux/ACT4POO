@@ -6,7 +6,9 @@ namespace ACT4POO
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+           
+            Cercle1 cercle = new Cercle1();
+            cercle.CalculerAire();
         }
     }
 }
